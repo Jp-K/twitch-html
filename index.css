@@ -1,0 +1,176 @@
+html * {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.text-button{
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.navBar-left-items {
+    margin-right: 20px;
+}
+
+.icon {
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: ghostwhite;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.search-icon {
+    background-color: grey;
+    mask: url("https://www.flaticon.com/svg/vstatic/svg/149/149852.svg?token=exp=1620744446~hmac=df905fc1d118d1bd24e5e0f78b1a7f8e");
+    -webkit-mask: url("https://www.flaticon.com/svg/vstatic/svg/149/149852.svg?token=exp=1620744446~hmac=df905fc1d118d1bd24e5e0f78b1a7f8e");
+}
+
+.right-nav-controls {
+    position: absolute;
+    right: 0;
+}
+
+.right-nav-controls input {
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.signIn {
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 10px;
+    height: 28px;
+    background-color: ghostwhite;
+    border-radius: 4px;
+}
+
+.left-messages {
+    width: 150px;
+}
+
+.message-box {
+    position: relative;
+    top:10px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.signup-button {
+    border: none;
+    background-color: #6441A4;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-width: 90px;
+    cursor: pointer;
+}
+
+.message-box button {
+    padding: 7px 14px;
+}
+
+.icon-rounded {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.aovivo {
+    background-color: #f7f7f8;
+    margin-top: 20px;
+}
+
+.aovivo h3 {
+    margin-left: 55px;
+    height: 10px;
+}
+
+.lives li {
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-left: 22px;
+    line-height: 10px;
+}
+.lives li p {
+    color: rgb(94, 90, 90);
+}
+
+.tags li{
+    list-style: none;
+    display: inline;
+    float: left;
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    border-radius: 25px;
+    color: rgb(94, 90, 90);
+}
+
+.game-cards {
+    background-color: #f7f7f8;
+    margin-top: 10px;
+}
+
+.game-card-section-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.game-cards li {
+    margin-left: 10px;
+}
+
+.game-tags li{
+    list-style: none;
+    display: inline;
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    border-radius: 25px;
+    color: rgb(94, 90, 90);
+    max-width: 120px;
+}
+
+.game-card-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+footer div {
+    background-color: #6441A4;
+    height: 20px;
+    width: 100%;
+    margin-top: 6%;
+}
